@@ -1,3 +1,25 @@
+@font-face {
+    font-family: 'bodonixtregular';
+    src: url('bodonixt-webfont.woff2') format('woff2'),
+         url('bodonixt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'oxygenregular';
+    src: url('oxygen-webfont.woff2') format('woff2'),
+         url('oxygen-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1 {
+    font-family: 'bodonixtregular' serif;
+}
+
 div {
     background-color: #ffe1e6;
 }
@@ -6,13 +28,14 @@ div2 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    font-family: sans-serif
+    font-family: 'oxygenregular' sans-serif;
 
 }
 
 h2 {
     display: flex;
     justify-content: center;
+    font-family: 'bodonixtregular' serif;
 }
 
 
@@ -34,5 +57,5 @@ body {
 
 p {
     margin: 30px;
+    font-family: 'oxygenregular' sans-serif;
 }
-

@@ -1,5 +1,3 @@
-
-
 h1 {
     font-family: serif;
 }
@@ -23,16 +21,9 @@ h2 {
 }
 
 
-p4 {
-   display: flex;
-    justify-content: flex-end;
-    position: relative;
-    bottom: 200px;
-    right: 200px;
-}
-
-logo {
-    margin: 30px;
+img {
+    display: flex;
+    justify-content: center;
 }
 
 body {
@@ -44,7 +35,11 @@ p {
     font-family: sans-serif;
 }
 
-img2 {
+img {
+    margin: 50px;
+}
+
+lol {
     display: flex;
-    justify-content: center;
+    align-content: flex-end;
 }

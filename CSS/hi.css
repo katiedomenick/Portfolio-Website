@@ -1,6 +1,7 @@
 
 h1 {
     font-family: serif;
+    margin: 20px;
 }
 
 div {
@@ -20,10 +21,14 @@ h2 {
     display: flex;
     justify-content: center;
     font-family: serif;
+     transition-property: font-size;
+    transition-duration: 2s;
+    transition-delay: 1s;
+    font-size: 40px;
 }
 
 #logo {
-    margin: 40px;
+    margin: 30px;
     border: 2px purple;
 }
 

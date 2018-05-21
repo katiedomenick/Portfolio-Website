@@ -44,12 +44,12 @@ div2 {
     margin: 10px;
     font-family: 'oxygenregular', sans-serif;
     font-size: 18px;
+    border: 3px transparent;
 }
 
 a:hover {
     font-size: 21px;
     transition-duration: 0.25s;
-    border: 1px, top, transparent;
 }
 
 h2 {

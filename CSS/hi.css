@@ -47,8 +47,13 @@ div2 {
     border: 3px transparent;
 }
 
+a {
+    border: 3px transparent;
+    margin: 4px solid;
+}
+
 a:hover {
-    font-size: 21px;
+    color: deepskyblue;
     transition-duration: 0.25s;
 }
 
